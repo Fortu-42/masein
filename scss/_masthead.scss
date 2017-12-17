@@ -151,7 +151,7 @@ section#fourth{
 .modal-content{
     width: 80vw;
     position: relative;
-    
+    right: 10vw;
     @media screen and (max-width:$widthS5){
         width: 95vw
     }
