@@ -1,0 +1,120 @@
+/*!
+ * Start Bootstrap - Full Width Pics v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/full-width-pics)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-width-pics/blob/master/LICENSE)
+ */
+@import url("https://fonts.googleapis.com/css?family=Rubik");
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One|Rubik");
+ul.onepage-pagination {
+  color: white; }
+
+.logoh {
+  position: relative;
+  top: 20px;
+  height: 15vh; }
+  @media screen and (max-width: 360px) {
+    .logoh {
+      top: 0;
+      height: 12vh; } }
+
+section#zero.bg-image-full {
+  font-family: 'Rubik', sans-serif;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2), transparent), url("../img/header.jpg");
+  background-attachment: fixed; }
+  section#zero.bg-image-full h1.heading {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 70px;
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.3); }
+    @media screen and (max-width: 360px) {
+      section#zero.bg-image-full h1.heading {
+        font-size: 22px; } }
+
+hr {
+  max-width: 100px;
+  border-width: 4px;
+  border-color: #3f6699;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.3); }
+
+p {
+  color: white;
+  font-size: 30px;
+  font-weight: bolder;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.3); }
+  @media screen and (max-width: 360px) {
+    p {
+      font-size: 15px; } }
+  p .lead {
+    font-weight: bolder;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.3); }
+
+.capturee {
+  color: white;
+  font-family: 'Rubik', sans-serif;
+  text-transform: uppercase; }
+  .capturee h1.heading {
+    font-size: 90px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.1); }
+    @media screen and (max-width: 360px) {
+      .capturee h1.heading {
+        font-size: 20px; } }
+  .capturee h1.heading.esp {
+    font-size: 80px; }
+    @media screen and (max-width: 360px) {
+      .capturee h1.heading.esp {
+        font-size: 18px; } }
+  .capturee .btn {
+    margin-top: 20px;
+    font-weight: 700; }
+  .capturee .btn-primary {
+    background-color: #3f6699;
+    border-color: #3f6699; }
+  .capturee .btn-xl {
+    padding: 1rem 2rem; }
+
+.svg {
+  height: 15vh;
+  font-weight: bolder; }
+
+section#first {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), transparent), url("../img/2.jpg");
+  background-size: cover;
+  height: 100vh; }
+
+section#second {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), transparent), url("../img/3.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh; }
+
+section#third {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), transparent), url("../img/4.jpg");
+  background-size: cover;
+  height: 100vh; }
+
+section#fourth {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), transparent), url("../img/5.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh; }
+
+.modal-content {
+  width: 80vw;
+  position: relative; }
+  @media screen and (max-width: 360px) {
+    .modal-content {
+      width: 95vw; } }
+  .modal-content .modal-body .gancho {
+    color: #333;
+    font-size: 22px;
+    font-weight: 500; }
+    @media screen and (max-width: 360px) {
+      .modal-content .modal-body .gancho {
+        font-size: 15px;
+        margin-top: -15px; } }
