@@ -106,10 +106,12 @@ section#fourth {
 
 .modal-content {
   width: 80vw;
-  position: relative; }
+  position: relative;
+  right: 10vw; }
   @media screen and (max-width: 360px) {
     .modal-content {
-      width: 95vw; } }
+      width: 95vw;
+      right: 0; } }
   .modal-content .modal-body .gancho {
     color: #333;
     font-size: 22px;
