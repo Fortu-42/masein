@@ -10,8 +10,8 @@ var autoprefixer = require("gulp-autoprefixer");
 var reload = browserSync.reload;
 
 // Compiles SCSS files from /scss into /css
-gulp.task("sass", function(done) {
-  return gulp
+gulp.task("sass", async function(done) {
+  await gulp
     .src("scss/style.scss")
     .pipe(autoprefixer())
     .pipe(sass())
@@ -27,8 +27,8 @@ gulp.task("sass", function(done) {
 // Minify compiled CSS
 gulp.task(
   "minify-css",
-  gulp.series("sass", function(done) {
-    return gulp
+  gulp.series("sass", async function(done) {
+    await gulp
       .src("css/style.css")
       .pipe(
         cleanCSS({
@@ -51,8 +51,8 @@ gulp.task(
 );
 
 // Minify custom JS
-gulp.task("minify-js", function(done) {
-  return gulp
+gulp.task("minify-js", async function(done) {
+  await gulp
     .src("js/script.js")
     .pipe(uglify())
     .pipe(
@@ -71,8 +71,8 @@ gulp.task("minify-js", function(done) {
 
 // Copy vendor files from /node_modules into /vendor
 // NOTE: requires `npm install` before running!
-gulp.task("copy", function(done) {
-  gulp
+gulp.task("copy", async function(done) {
+  await gulp
     .src([
       "node_modules/bootstrap/dist/**/*",
       "!**/npm.js",
@@ -121,8 +121,8 @@ gulp.task("copy", function(done) {
 gulp.task("default", gulp.series("sass", "minify-css", "minify-js", "copy"));
 
 // Configure the browserSync task
-gulp.task("browserSync", function(done) {
-  browserSync.init({
+gulp.task("browserSync", async function(done) {
+  await browserSync.init({
     server: {
       baseDir: "./",
       index: "index.html"
@@ -134,13 +134,15 @@ gulp.task("browserSync", function(done) {
 // Dev task with browserSync
 gulp.task(
   "dev",
-  gulp.series("browserSync", "sass", "minify-css", "minify-js", function(done) {
-    gulp.watch("scss/*.scss", gulp.parallel("sass"));
-    gulp.watch("css/*.css", gulp.parallel("minify-css"));
-    gulp.watch("js/*.js", gulp.parallel("minify-js"));
+  gulp.series("browserSync", "sass", "minify-css", "minify-js", async function(
+    done
+  ) {
+    await gulp.watch("scss/*.scss", gulp.parallel("sass"));
+    await gulp.watch("css/*.css", gulp.parallel("minify-css"));
+    await gulp.watch("js/*.js", gulp.parallel("minify-js"));
     // Reloads the browser whenever HTML or JS files change
-    gulp.watch("*.html", gulp.parallel(browserSync.reload));
-    gulp.watch("js/**/*.js", gulp.parallel(browserSync.reload));
+    await gulp.watch("*.html", gulp.parallel(browserSync.reload));
+    await gulp.watch("js/**/*.js", gulp.parallel(browserSync.reload));
     done();
   })
 );

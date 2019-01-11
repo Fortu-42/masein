@@ -13,12 +13,12 @@ ul.onepage-pagination {
       height: 12vh; } }
 
 section#zero.bg-image-full {
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2), transparent), url("../img/header.jpg");
   background-attachment: fixed; }
   section#zero.bg-image-full h1.heading {
     color: white;
-    font-family: 'Rubik', sans-serif;
+    font-family: "Rubik", sans-serif;
     font-size: 70px;
     text-transform: uppercase;
     -webkit-text-stroke-width: 1px;
@@ -50,7 +50,7 @@ p {
 
 .capturee {
   color: white;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   text-transform: uppercase; }
   .capturee h1.heading {
     font-size: 90px;
@@ -83,7 +83,7 @@ section#first {
   height: 100vh; }
 
 section#second {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), transparent), url("../img/3.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), transparent), url("../img/6.jpg");
   background-size: cover;
   background-attachment: fixed;
   height: 100vh; }
