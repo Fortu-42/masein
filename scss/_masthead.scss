@@ -29,7 +29,6 @@ section#zero.bg-image-full {
       transparent
     ),
     url("../img/header.jpg");
-  background-attachment: fixed;
   // // height: 40vh;
   // z-index: -1;
 
@@ -115,7 +114,6 @@ section#first {
     ),
     url("../img/2.jpg");
   background-size: cover;
-  // background-attachment: fixed;
   height: 100vh;
 }
 
@@ -127,7 +125,6 @@ section#second {
     ),
     url("../img/6.jpg");
   background-size: cover;
-  background-attachment: fixed;
   height: 100vh;
 }
 
@@ -139,7 +136,6 @@ section#third {
     ),
     url("../img/4.jpg");
   background-size: cover;
-  // background-attachment: fixed;
   height: 100vh;
 }
 
@@ -151,7 +147,6 @@ section#fourth {
     ),
     url("../img/5.jpg");
   background-size: cover;
-  background-attachment: fixed;
   height: 100vh;
 }
 

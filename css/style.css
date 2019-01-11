@@ -14,8 +14,7 @@ ul.onepage-pagination {
 
 section#zero.bg-image-full {
   font-family: "Rubik", sans-serif;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2), transparent), url("../img/header.jpg");
-  background-attachment: fixed; }
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2), transparent), url("../img/header.jpg"); }
   section#zero.bg-image-full h1.heading {
     color: white;
     font-family: "Rubik", sans-serif;
@@ -85,7 +84,6 @@ section#first {
 section#second {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), transparent), url("../img/6.jpg");
   background-size: cover;
-  background-attachment: fixed;
   height: 100vh; }
 
 section#third {
@@ -96,7 +94,6 @@ section#third {
 section#fourth {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), transparent), url("../img/5.jpg");
   background-size: cover;
-  background-attachment: fixed;
   height: 100vh; }
 
 .modal-content {
