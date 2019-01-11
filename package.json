@@ -36,6 +36,7 @@
     "owl.carousel": "^2.2.0",
     "popper.js": "^1.12.9",
     "scrollreveal": "3.3.6",
+    "sshpk": "^1.16.0",
     "startbootstrap-business-frontpage": "^4.0.0-beta"
   },
   "devDependencies": {
