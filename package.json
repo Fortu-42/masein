@@ -32,6 +32,7 @@
     "jquery.easing": "^1.4.1",
     "lodash.clonedeep": "^4.5.0",
     "magnific-popup": "^1.1.0",
+    "minimatch": "^3.0.2",
     "owl.carousel": "^2.2.0",
     "popper.js": "^1.12.9",
     "scrollreveal": "3.3.6",
@@ -39,7 +40,7 @@
   },
   "devDependencies": {
     "browser-sync": "^2.26.3",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-autoprefixer": "^3.1.1",
     "gulp-clean-css": "3.9.0",
     "gulp-header": "1.8.9",
