@@ -96,19 +96,16 @@ section#fourth {
   background-size: cover;
   height: 100vh; }
 
-.modal-content {
-  width: 80vw;
-  position: relative;
-  right: 10vw; }
+@media screen and (max-width: 360px) {
+  .modal-content {
+    width: 95vw;
+    right: 0; } }
+
+.modal-content .modal-body .gancho {
+  color: #333;
+  font-size: 22px;
+  font-weight: 500; }
   @media screen and (max-width: 360px) {
-    .modal-content {
-      width: 95vw;
-      right: 0; } }
-  .modal-content .modal-body .gancho {
-    color: #333;
-    font-size: 22px;
-    font-weight: 500; }
-    @media screen and (max-width: 360px) {
-      .modal-content .modal-body .gancho {
-        font-size: 15px;
-        margin-top: -15px; } }
+    .modal-content .modal-body .gancho {
+      font-size: 15px;
+      margin-top: -15px; } }
