@@ -1,11 +1,11 @@
 var gulp = require("gulp");
 var sass = require("gulp-sass");
 var browserSync = require("browser-sync").create();
-var header = require("gulp-header");
+
 var cleanCSS = require("gulp-clean-css");
 var rename = require("gulp-rename");
 var uglify = require("gulp-uglify");
-var pkg = require("./package.json");
+
 var autoprefixer = require("gulp-autoprefixer");
 var reload = browserSync.reload;
 
